@@ -1,0 +1,70 @@
+/* colors */
+
+:root {
+  --primary: #1a253f;
+  --dard: #151a33;
+  --secondary: #2b55cc;
+  --info: #4d79f6;
+  --ternary: #848db3;
+  --pure: #848db3;
+  --fade: #7081b9;
+  --mild: #8997bd;
+  --footer: #212a4a;
+  --black: #060b1b;
+  --dribble: #ff5da0;
+  --success: #1ecab8;
+  --danger: #f1646c;
+  --dard-blue: #28365f;
+}
+
+/* Reset */
+
+* {
+  margin: 20;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: var(--dard);
+  -webkit-font-smoothing: antialiased;
+  /* the above line is for font smoothing */
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  line-height: 1;
+}
+
+.container {
+  max-width: 1140;
+  margin: 0 auto;
+}
+
+
+
+.inner{
+    margin: 0% 15%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .inner .logo{
+    text-transform: uppercase;
+    color: var(--pure);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 5000 ;
+}
+
+nav{
+    background: var(--primary);
+    margin: 0% 0%;
+    padding:1.5rem 0;
+}
+
+.logo{
+
+}
